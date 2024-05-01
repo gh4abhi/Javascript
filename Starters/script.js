@@ -25,3 +25,9 @@ const obj = {
 fn(obj.fname);
 ln(obj['lname']);
 console.log(rl(obj.role));
+
+arr = new Array;
+
+arr.push(obj.fname);
+
+console.log(arr);
